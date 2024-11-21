@@ -15,7 +15,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rgs" {
   name     = "test-rg1"
-  location = "Southeast Asia "
+  location = "Southeast Asia"
 }
 
 resource "azurerm_container_registry" "acrs" {
